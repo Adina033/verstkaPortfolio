@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* header */
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+body{
+    background-color: #191919;
+}
+.logo{
+    width: 97px;
+    height: 59px;
+    margin-right: 200px;
+}
+.nav-item{
+    display: flex;
+}
+.nav-items a{
+    color: #A7A7A7;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+/* body-about */
+.about-me{
+    display: flex;
+    justify-content: space-between;
+}
+.description-text{
+    color: #D9D9D9;
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-top: 130px;
+    display: flex;
+}
+.description-text span{
+        background: linear-gradient(to right, #13B0F5, #E70FAA); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        background-clip: text; 
+        color: transparent; 
+}
+.description-img{
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+}
+    
+/* body-tech */
+.tech-title{
+    color: #CCCCCC;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top:200px;
+}
+.tech-text{
+    color: #A7A7A7;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.tech-logo{
+    margin-top: 150px;
+    margin-left: 90px;
+}
+.tech-logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+
+/* body-projects */
+.card-items{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    margin-top: 90px;
+    color: #CCCCCC;
+    background-color: #363636;
+    border-radius: 20px;
+    width: 373px;
+    padding-bottom: 25px;
+    margin-right: 50px;
+}
+.card-item a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+.card-img{
+    width: 373px;
+    height: 260px;
+}
+.card-title{
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    margin-left: 28px;  
+}
+.card-text{
+    width: 314px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Poppins';
+    margin-left: 28px;
+}
+.subtext{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-left: 28px;
+}
+.subtext span{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+.link-logo{
+    width: 20px;
+    height: 20px;
+    margin-left: 28px;
+}
+.link-text{
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    border-bottom: solid 1px #CCCCCC;
+    padding-left: 3px;  
+}
+/* futter */
+.futter-item{
+    display: flex;
+    
+}
+.futter-item img{
+    width: 97px;
+    height: 59px;
+}
+.number{
+    color: #A7A7A7;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin-left: 500px;
+}
+.email{
+    color: #A7A7A7;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.futter-logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    
+}
+.futter{
+    display: flex;
+    margin-top: 200px;
+}
+hr{
+    border: 1px solid #42446E;
+    margin-top: 42px;
+    margin-bottom: 60px;
+}
+.futter-items a{
+    color: #A7A7A7;
+    margin-right: 52px;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+}
+.futter-subtext{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #CCCCCC;
+    margin: auto;
+    padding-left: 135px;
+}
+.futter-subtext span{
+    background: linear-gradient(to right, #13B0F5, #E70FAA); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        background-clip: text; 
+        color: transparent; 
+}
+.futter-2{
+    display: flex;
+}
+
+/* about  */
+.about{
+    color: #CCCCCC;
+    font-family: 'Poppins';
+    margin-bottom: 300px;
+}
+.about-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 38px;
+    margin-top: 150px;
+}
+.about-title-2{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.about-text{
+    width: 708px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.list-title{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.list-item{
+    display: flex;
+}
+.time{
+    color: #018C0F;
+    background-color: #D7FFE0;
+    padding: 3px 25px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-right: 460px;
+}
+.list-sub{
+    display: flex;
+}
+.list-sub img{
+    width: 20px;
+    height: 16px;
+}
+.list-sub p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+    color: #A7A7A7;
+}
+.list-location{
+    margin-left: 60px;
+    
+}
+.list-calendar{
+    margin-right: 275px;
+}
+.list-hr{
+    width: 750px;
+    margin: 0px 0px;
+    margin-top: 24px;
+}
+
+/* tech-stack */
+.tech-stack{
+    color: #CCCCCC;
+    font-family: 'Poppins';
+    margin-bottom: 150px;
+}
+.stack-text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.stack-title{
+    margin: 0px 0px;
+    font-size: 42px;
+    margin-top: 150px;
+}
+
+/* projects */
+.project{
+    color: #CCCCCC;
+    font-family: 'Poppins';
+    margin-bottom: 300px;
+}
+/* contacts */
+.contacts{
+    color: #CCCCCC;
+    font-size: 58px;
+    font-family: 'Poppins';
+    text-align: center;
+    /* margin-top: 200px; */
+    margin: 200px 0px 0px 0px;
+}
+.contacts-gran{
+    background: linear-gradient(to right, #13B0F5, #E70FAA); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
+
+    font-size: 58px;
+    font-family: 'DM Sans';
+    text-align: center;
+    font-weight: 700;
+    margin: 9px 0px 0px 0px;
+}
